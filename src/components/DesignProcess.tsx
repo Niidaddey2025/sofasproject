@@ -1,6 +1,9 @@
 
 import { useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import materialsImage from "../assets/high-angle-decorative-vinyls-arrangement.jpg";
+import craftingImage from "../assets/carpenter-cutting-mdf-board-inside.jpg";
+import finishingImage from "../assets/istockphoto-501948477-612x612.jpg";
 
 const processSteps = [
   {
@@ -13,19 +16,19 @@ const processSteps = [
     id: "materials",
     title: "Materials",
     description: "We carefully select sustainable materials that meet our quality standards. Each wood, fabric, and metal is chosen not only for its beauty but also for its durability and environmental impact.",
-    image: "../src/assets/high-angle-decorative-vinyls-arrangement.jpg"
+    image: materialsImage
   },
   {
     id: "crafting",
     title: "Crafting",
     description: "Our skilled artisans bring designs to life using a combination of traditional craftsmanship and modern techniques. Each piece passes through many hands, each adding their expertise.",
-    image: "../src/assets/carpenter-cutting-mdf-board-inside.jpg"
+    image: craftingImage
   },
   {
     id: "finishing",
     title: "Finishing",
     description: "The finishing touches make all the difference. From sanding and staining to upholstery and quality checks, we ensure every detail meets our exacting standards before it leaves our workshop.",
-    image: "../src/assets/istockphoto-501948477-612x612.jpg"
+    image: finishingImage
   }
 ];
 

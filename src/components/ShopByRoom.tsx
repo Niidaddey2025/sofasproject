@@ -1,29 +1,33 @@
 
 import { ArrowRight } from "lucide-react";
+import livingRoomImage from "../assets/living.jpg";
+import diningRoomImage from "../assets/dining.jpg";
+import bedroomImage from "../assets/photo_6014676754439981954_y.jpg";
+import officeImage from "../assets/office.jpg";
 
 const rooms = [
   {
     name: "Living Room",
     description: "Create a welcoming space for family and friends with our stylish yet comfortable living room pieces.",
-    image: "../src/assets/living.jpg",
+    image: livingRoomImage,
     link: "/collections"
   },
   {
     name: "Dining Room",
     description: "Transform mealtimes with dining tables and chairs designed for both everyday use and special occasions.",
-    image: "../src/assets/dining.jpg",
+    image: diningRoomImage,
     link: "/collections"
   },
   {
     name: "Bedroom",
     description: "Create your perfect sanctuary with our bedroom collections that balance style and comfort.",
-    image: "../src/assets/photo_6014676754439981954_y.jpg",
+    image: bedroomImage,
     link: "/collections"
   },
   {
     name: "Home Office",
     description: "Design a productive and inspiring workspace with our ergonomic and stylish office furniture.",
-    image: "../src/assets/office.jpg",
+    image: officeImage,
     link: "/collections"
   }
 ];

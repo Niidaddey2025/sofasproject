@@ -2,48 +2,54 @@
 import { useState, useRef } from "react";
 import { ArrowRight, ArrowLeft, X } from "lucide-react";
 import { Dialog, DialogContent, DialogClose } from "@/components/ui/dialog";
+import ghshsjdjsImage from "../assets/ghshsjdjs.png";
+import image455544 from "../assets/455544.png";
+import temImage from "../assets/tem.jpg";
+import image4242 from "../assets/4242.png";
+import image5555 from "../assets/5555.png";
+import urbanImage from "../assets/urban.png";
 
 const collections = [
   {
     id: 1,
     name: "Aurora",
     description: "Minimalist designs with gentle curves and natural materials.",
-    imageUrl: "../assets/ghshsjdjs.png",
+    imageUrl: ghshsjdjsImage,
     featured: true,
   },
   {
     id: 2,
     name: "Nova",
     description: "Bold, contemporary pieces that make a statement.",
-    imageUrl: "../assets/455544.png",
+    imageUrl: image455544,
     featured: false,
   },
   {
     id: 3,
     name: "Terra",
     description: "Sustainable furniture crafted from reclaimed materials.",
-    imageUrl: "../assets/tem.jpg",
+    imageUrl: temImage,
     featured: false,
   },
   {
     id: 4,
     name: "Aria",
     description: "Light, elegant designs for modern living spaces.",
-    imageUrl: "../assets/4242.png",
+    imageUrl: image4242,
     featured: true,
   },
   {
     id: 5,
     name: "Zenith",
     description: "Functional luxury for the discerning customer.",
-    imageUrl: "../assets/5555.png",
+    imageUrl: image5555,
     featured: false,
   },
   {
     id: 6,
     name: "Urban",
     description: "Industrial-inspired designs perfect for city lofts and apartments.",
-    imageUrl: "../assets/urban.png",
+    imageUrl: urbanImage,
     featured: true,
   }
 ];

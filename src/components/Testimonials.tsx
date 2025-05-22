@@ -7,6 +7,10 @@ import {
   type CarouselApi
 } from "@/components/ui/carousel";
 import { Star } from "lucide-react";
+import roAvatar from "../assets/ro.png";
+import jasonAvatar from "../assets/jesjes.jpg";
+import jorelleAvatar from "../assets/tstst.jpg";
+import danielAvatar from "../assets/sample.png";
 
 const testimonials = [
   {
@@ -15,7 +19,7 @@ const testimonials = [
     role: "Interior Designer",
     comment: "SofasAndMore pieces have become essential elements in my designs. The quality and attention to detail are unmatched, and my clients are always impressed with the results.",
     rating: 5,
-    avatarUrl: "../src/assets/ro.png"
+    avatarUrl: roAvatar
   },
   {
     id: 2,
@@ -23,7 +27,7 @@ const testimonials = [
     role: "Homeowner",
     comment: "After searching for months for the perfect sofa, I found SofasAndMore. The Aurora collection transformed our living room into a beautiful, comfortable space we love spending time in.",
     rating: 5,
-    avatarUrl: "../src/assets/jesjes.jpg"
+    avatarUrl: jasonAvatar
   },
   {
     id: 3,
@@ -31,7 +35,7 @@ const testimonials = [
     role: "Architect",
     comment: "The craftsmanship and sustainable approach align perfectly with my design philosophy. I've recommended SofasAndMore to countless clients, and the feedback is consistently positive.",
     rating: 5,
-    avatarUrl: "../src/assets/tstst.jpg"
+    avatarUrl: jorelleAvatar
   },
   {
     id: 4,
@@ -39,7 +43,7 @@ const testimonials = [
     role: "Hotel Owner",
     comment: "Furnishing our boutique hotel with SofasAndMore pieces was one of the best decisions we made. Our guests frequently comment on how comfortable and stylish our furnishings are.",
     rating: 5,
-    avatarUrl: "../src/assets/sample.png"
+    avatarUrl: danielAvatar
   }
 ];
 

@@ -4,13 +4,17 @@ import { Button } from "../ui/button";
 import { Skeleton } from "../ui/skeleton";
 import { useState } from "react";
 import { Dialog, DialogContent, DialogClose } from "@/components/ui/dialog";
+import Lv from "../../assets/photo_6014676754439981960_y.jpg";
+import novaImage from "../../assets/port-bed.png";
+import terraImage from "../../assets/photo_6014676754439981940_y.jpg";
+import ariaImage from "../../assets/bed-port.png";
 
 const collections = [
   {
     id: 1,
     name: "Aurora",
     description: "Minimalist designs with gentle curves and natural materials.",
-    imageUrl: "../src/assets/photo_6014676754439981960_y.jpg",
+    imageUrl: Lv,
     category: "Living Room",
     featured: true,
   },
@@ -18,7 +22,7 @@ const collections = [
     id: 2,
     name: "Nova",
     description: "Bold, contemporary pieces that make a statement.",
-    imageUrl: "../src/assets/port-bed.png",
+    imageUrl: novaImage,
     category: "Dining Room",
     featured: false,
   },
@@ -26,7 +30,7 @@ const collections = [
     id: 3,
     name: "Terra",
     description: "Sustainable furniture crafted from reclaimed materials.",
-    imageUrl: "../src/assets/photo_6014676754439981940_y.jpg",
+    imageUrl: terraImage,
     category: "Bedroom",
     featured: false,
   },
@@ -34,7 +38,7 @@ const collections = [
     id: 4,
     name: "Aria",
     description: "Light, elegant designs for modern living spaces.",
-    imageUrl: "../src/assets/bed-port.png",
+    imageUrl: ariaImage,
     category: "Dining Room",
     featured: true,
   },
